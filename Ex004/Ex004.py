@@ -1,0 +1,10 @@
+var = input('Digite algo: ')
+
+print(f'O tipo primitivo é : {type(var)}')
+print(f'Só tem espaços?: {var.isspace()}')
+print(f'É númerico?: {var.isnumeric()}')
+print(f'É alfabético?: {var.isalpha()}')
+print(f'É alfanumérico?: {var.isalnum()}')
+print(f'Está em maiúsculas?: {var.isupper()}')
+print(f'Está em minusculas?: {var.islower()}')
+print(f'Está captalizada?: {var.istitleP()}')
